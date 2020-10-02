@@ -10,7 +10,7 @@ interface Callable {
 	function tokenCallback(address _from, uint256 _tokens, bytes calldata _data) external returns (bool);
 }
 
-contract YBross {
+contract YFIMatrix {
 
 	uint256 constant private FLOAT_SCALAR = 2**64;
 	uint256 constant private INITIAL_SUPPLY = 30000e18;
